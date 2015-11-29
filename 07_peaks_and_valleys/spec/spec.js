@@ -7,13 +7,13 @@ describe('peak', function() {
 });
 
 describe('valley', function() {
-  xit('returns a string representing a valley', function() {
+  it('returns a string representing a valley', function() {
     expect(yourCode.valley()).toEqual('___');
   });
 });
 
 describe('peaks', function() {
-  xit('returns the number of peaks provided as an argument', function() {
+  it('returns the number of peaks provided as an argument', function() {
     expect(yourCode.peaks(3)).toEqual('/\\/\\/\\');
   });
 });
